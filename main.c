@@ -32,7 +32,7 @@ void wysw_imienia()
 
     char user [100];
     scanf("%s", &user);
-    printf("%s", user);
+    printf("%s",user);
 }
 int main()
 {
