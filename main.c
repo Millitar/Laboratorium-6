@@ -28,8 +28,10 @@ void liczby_od1_do10()
 //Adam
 void wysw_imienia()
 {
-    system("clear");//konflikt ci zrobiłam
-
+    system("clear");
+    char user [100];
+    scanf("%s", &user);
+    printf("%s", user);
 }
 int main()
 {
