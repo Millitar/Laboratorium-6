@@ -6,7 +6,7 @@
 void losowe_liczby()
 {
     system("clear");
-    srand(time(0));
+    srand(time(0));// nie postarałes sie
 
     for(int i = 0; i<3; i++)
         printf(" %d \n", rand());
@@ -29,7 +29,9 @@ void liczby_od1_do10()
 void wysw_imienia()
 {
     system("clear");//konflikt ci zrobiłam
-
+    char user [100];
+    scanf("%s", &user);
+    printf("%s", user);
 }
 int main()
 {
