@@ -31,7 +31,7 @@ void wysw_imienia()
     system("clear");
 
     char user [100];
-    scanf("%s", &user);
+    scanf("%s",&user);
     printf("%s", user);
 }
 int main()
