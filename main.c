@@ -16,6 +16,11 @@ void losowe_liczby()
 //Ania
 void liczby_od1_do10()
 {
+    int i;
+    for (i=1;i<=10;i++)
+    {
+        printf("%d",i);
+    }
     system("clear");
 }
 
@@ -23,7 +28,7 @@ void liczby_od1_do10()
 //Adam
 void wysw_imienia()
 {
-    system("clear");
+    system("clear");//konflikt ci zrobiłam
 
 }
 int main()
